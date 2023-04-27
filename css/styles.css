@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.menú ul li {
+    list-style: none;
+    margin-left: 25px;
+    color: black;
+    font-weight: 800;
+    float: left;
+    transition: .5s;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+
+}
+
+.head {
+    height: 100%;
+}
+
+.LogoGau {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+ .foto_inicio {
+
+    justify-content: center;
+    height: 400px;
+    display: flex;
+
+
+}
+
+.Gau {
+    width: 300px;
+    border-radius: 90%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-indent: 10px;
+
+}
+.p1,.p2{
+    background-color: #fde6fb;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    border: none;
+    background-color: #fbfbfb;
+}
+
+.DescargaCv {
+    font-size: 20px;
+    background-color: #af599e;
+    display: flex;
+    justify-content: center;
+    color: #fbfbfb;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    width: 200px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-right: 30px;
+
+}
+
+.ico {
+    width: 100px;
+    height: 100px;
+    margin-left: 35px;
+}
+footer {
+    background-color: #af599e;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final {
+    color: #fbfbfb;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.hablemos{
+    background-color: rgba(175, 89, 158, 0.3);
+    border-radius: 15px;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+#Intro,#More,#Talk {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.lista-inicio:hover {
+    color: #af599e;
+    transform: translateY(-3px) scale(1.05);
+}
+
+.lista-final:hover{
+    transform: translateY(-3px) scale(1.2);
+
+}
